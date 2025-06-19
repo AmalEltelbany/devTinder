@@ -1,10 +1,23 @@
-# devTinder
+# devTinder – Developer Matching Platform
 
-devTinder is a platform designed to connect developers with similar interests and projects. This application enables users to create profiles, browse potential connections, and engage with others in the developer community.
+**devTinder** is a full-stack platform that connects developers based on shared interests, skills, and goals.
 
-## Features
+## 🔧 Features
+- User registration and login with JWT-based authentication.
+- Profile creation and editing with tech stack preferences.
+- Smart developer matching algorithm.
+- RESTful APIs to manage users, profiles, and matches.
+- Dockerized setup for easy deployment and scalability.
 
-- **User Registration and Authentication**: Users can sign up and log in securely.
-- **Profile Management**: Create and update user profiles to showcase skills and interests.
-- **Browse Connections**: View and connect with other developers based on shared interests.
-- **MongoDB Integration**: Store user data and connections efficiently.
+## 🛠 Tech Stack
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **DevOps:** Docker, Docker Compose  
+- **Auth:** JWT (JSON Web Tokens)  
+- **Testing:** Postman
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/AmalEltelbany/devTinder.git
+cd devTinder
+docker-compose up --build
